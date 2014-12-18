@@ -12,9 +12,9 @@
         <div id="navbar" class="navbar-collapse collapse">
             <?php if (AuthComponent::user('id')): ?>
                 <ul class="nav navbar-nav">
-                    <li class="active"<li><?php echo $this->Html->link("Dashboard", array('controller' => 'web', 'action' => 'index')); ?></li></li>
+                    <li><?php echo $this->Html->link("Dashboard", array('controller' => 'web', 'action' => 'index')); ?></li>
                     <li><?php echo $this->Html->link("Usuarios", array('controller' => 'usuarios', 'action' => 'index')); ?></li>
-                    <li><a href="#"> Reservas </a></li>
+                    <li><?php echo $this->Html->link("Reservas", array('controller' => 'reservas', 'action' => 'index')); ?></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Perfil</a></li>

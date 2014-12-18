@@ -1,6 +1,10 @@
 <!DOCTYPE html>
+
 <html>
     <head>
+
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
         <?php echo $this->Html->charset(); ?>
         <title>
             <?php echo $this->fetch('title'); ?>
@@ -8,6 +12,9 @@
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="http://code.jquery.com/jquery.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
         <!-- Latest compiled and minified CSS -->
@@ -16,9 +23,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
         <?php
-
         echo $this->Html->meta('icon');
         echo $this->Html->css('style');
+        echo $this->Html->script('datepicker-es');
 
         echo $this->fetch('meta');
         echo $this->fetch('css');
@@ -27,8 +34,8 @@
     </head>
     <body>
         <div class="container">
-            
-            <?php echo $this->element('menu');?>
+
+            <?php echo $this->element('menu'); ?>
 
             <div class="content">
                 <div class="page-header">
@@ -40,14 +47,20 @@
 
             <div class="footer">
                 <?php
-                /*echo $this->Html->link(
-                        $this->Html->image('cake.power.gif', array('alt' => 'CAKEPHP', 'border' => '0')), 'http://www.cakephp.org/', array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-                );*/
+                /* echo $this->Html->link(
+                  $this->Html->image('cake.power.gif', array('alt' => 'CAKEPHP', 'border' => '0')), 'http://www.cakephp.org/', array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
+                  ); */
                 ?>
                 <p>
                 </p>
             </div>
         </div>
-        <?php //echo $this->element('sql_dump');   ?>
+        <?php //echo $this->element('sql_dump');    ?>
+        <?php
+        if (class_exists('JsHelper') && method_exists($this->Js, 'writeBuffer')) {
+            echo $this->Js->writeBuffer();
+            // Writes cached scripts
+        }
+        ?>
     </body>
 </html>

@@ -10,6 +10,7 @@ App::uses('AppModel', 'Model');
 class Locacion extends AppModel {
 
     public $useTable = 'locaciones';
+    public $name = 'Locaciones';
     public $primaryKey = 'id';
 
     /**
