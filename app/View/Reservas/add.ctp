@@ -40,7 +40,7 @@
     <hr style="border-top: 1px solid #777; width: 700px">
 
     <div class="form-group">
-        <label class="col-sm-2 control-label">Tipo:</label>
+        <label class="col-sm-2 control-label">Tipo de Locación:</label>
         <div class="col-sm-2">
             <?php
             echo $this->Form->input('tipo_cabania', array(
@@ -49,10 +49,10 @@
             ?>
         </div>
 
-        <label class="col-sm-2 control-label">N°:</label>
+        <label class="col-sm-2 control-label">N° de Locación:</label>
         <div class="col-sm-2">
             <?php
-            echo $this->Form->input('subcategory_id');
+            echo $this->Form->input('locacion_id');
             ?>
         </div>
     </div>
@@ -62,21 +62,7 @@
                 'controller' => 'locaciones',
                 'action' => 'obtenerSegunTipoLocacion'
                     ), array(
-                'update' => '#ReservaSubcategoryId',
-                'async' => true,
-                'method' => 'post',
-                'dataExpression' => true,
-                'data' => $this->Js->serializeForm(array(
-                    'isForm' => true,
-                    'inline' => true
-                ))
-            ))
-    );
-    $this->Js->get('#ReservaTipoCabania')->event('change', $this->Js->request(array(
-                'controller' => 'locaciones',
-                'action' => 'obtenerSegunTipoLocacion'
-                    ), array(
-                'update' => '#ReservaSubcategoryId',
+                'update' => '#ReservaLocacionId',
                 'async' => true,
                 'method' => 'post',
                 'dataExpression' => true,
@@ -92,21 +78,55 @@
         <label class="col-sm-2 control-label">Adultos:</label>
         <div class="col-sm-2">
             <?php
-            echo $this->Form->input('tipo_cabania', array(
-                'options' => array($tipo_cabanias),
-                'empty' => 'Seleccione'));
+            echo $this->Form->input('cantidad_adultos_id');
             ?>
         </div>
 
-        <label class="col-sm-2 control-label">Chicos:</label>
-        <div class="col-sm-2">
+        <?php
+        $this->Js->get('#ReservaTipoCabania')->event('change', $this->Js->request(array(
+                    'controller' => 'tipoLocaciones',
+                    'action' => 'obtenerCantidadAdultos'
+                        ), array(
+                    'update' => '#ReservaCantidadAdultosId',
+                    'async' => true,
+                    'method' => 'post',
+                    'dataExpression' => true,
+                    'data' => $this->Js->serializeForm(array(
+                        'isForm' => true,
+                        'inline' => true
+                    ))
+                ))
+        );
+        ?>
+
+        <div class="col-sm-4">
+            <button class="btn btn-primary" id="agregaNuevaLocacion">Agregar</button>
+
             <?php
-            echo $this->Form->input('tipo_cabania', array(
-                'options' => array($tipo_cabanias),
-                'empty' => 'Seleccione'));
+            echo $this->Form->button('Agregar', array('type' => 'button', 'class' => 'btn btn-primary', 'id' => 'agregaNuevaLocacion'));
+            $this->Js->get('#agregaNuevaLocacion')->event('click', $this->Js->request(array(
+                        'controller' => 'locacionReservas',
+                        'action' => 'actualizarTablaLocaciones'), array(
+                        'update' => '#tablaLocaciones',
+                        'async' => true,
+                        'method' => 'post',
+                        'dataExpression' => true,
+                        'data' => '{'
+                        . 'tipo_cabania:$("#ReservaTipoCabania").val(),'
+                        . 'locacion_id:$("#ReservaLocacionId").val(),'
+                        . 'cantidad_adultos:$("#ReservaCantidadAdultosId").val(),'
+                        . '}'
+                    ))
+            );
             ?>
         </div>
+
     </div>
+    <div class="form-group" id="tablaLocaciones">
+
+    </div>
+
+
 
 
 
@@ -116,7 +136,8 @@
             <?php echo $this->Form->submit(__('Guardar'), array('class' => 'btn btn-primary')) ?>
         </div>
     </div>
-</form>
+
+    <?php echo $this->Form->end(); ?>
 
 </div>
 

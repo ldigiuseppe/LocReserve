@@ -29,4 +29,23 @@ class LocacionReservasController extends AppController {
         $this->layout = 'ajax';
     }
 
+    public function actualizarTablaLocaciones() {
+        /* echo '<pre>';
+          var_dump($this->request);
+          echo '</pre>'; */
+        /* $tipo_locacion_id = $this->request->data['Reserva']['tipo_cabania'];
+
+          $this->loadModel('Locacion');
+
+          $locaciones = $this->Locacion->find('list', array(
+          'conditions' => array('Locacion.tipo_locacion_id' => $tipo_locacion_id),
+          'recursive' => -1
+          )); */
+
+        $locacion = $this->request['data'];
+
+        $this->set('locacion', $locacion);
+        $this->layout = 'ajax';
+    }
+
 }
