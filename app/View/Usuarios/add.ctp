@@ -58,6 +58,6 @@
         </div>
     </div>
 
-    <?php echo $form->end(); ?>
+    <?php echo $this->Form->end(); ?>
 
 </div>
