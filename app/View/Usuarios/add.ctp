@@ -57,6 +57,7 @@
             <?php echo $this->Form->submit(__('Guardar'), array('class' => 'btn btn-primary')) ?>
         </div>
     </div>
-</form>
+
+    <?php echo $form->end(); ?>
 
 </div>

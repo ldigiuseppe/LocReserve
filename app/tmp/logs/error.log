@@ -1222,6 +1222,7 @@ Request URL: /dashboar
 Stack Trace:
 #0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+<<<<<<< HEAD
 2014-12-23 21:13:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
   'class' => 'Mysql',
@@ -4810,3 +4811,323 @@ Request URL: /web
 Stack Trace:
 #0 /Users/lucho/Sites/los_robles/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+=======
+2014-12-16 13:17:22 Error: [MissingControllerException] Controller class ReservasController could not be found.
+Exception Attributes: array (
+  'class' => 'ReservasController',
+  'plugin' => NULL,
+)
+Request URL: /reservas
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 13:17:24 Error: [MissingControllerException] Controller class ReservasController could not be found.
+Exception Attributes: array (
+  'class' => 'ReservasController',
+  'plugin' => NULL,
+)
+Request URL: /reservas
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 13:17:29 Error: [MissingControllerException] Controller class WebController could not be found.
+Exception Attributes: array (
+  'class' => 'WebController',
+  'plugin' => NULL,
+)
+Request URL: /web
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 13:17:31 Error: [MissingControllerException] Controller class WebController could not be found.
+Exception Attributes: array (
+  'class' => 'WebController',
+  'plugin' => NULL,
+)
+Request URL: /web
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 13:23:31 Error: [MissingActionException] Action ReservasController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ReservasController',
+  'action' => 'add',
+)
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ReservasController), Object(CakeRequest))
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-16 13:48:10 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\ReservasController.php, line 24]
+2014-12-16 13:48:10 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 24, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 24, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 16:04:24 Error: [MissingControllerException] Controller class LocacionesController could not be found.
+Exception Attributes: array (
+  'class' => 'LocacionesController',
+  'plugin' => NULL,
+)
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 16:04:58 Error: [MissingControllerException] Controller class LocacionesController could not be found.
+Exception Attributes: array (
+  'class' => 'LocacionesController',
+  'plugin' => NULL,
+)
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 16:06:56 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Locacion\obtener_segun_tipo_locacion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\Locacion\\obtener_segun_tipo_locacion.ctp',
+)
+Request URL: /locacion/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LocacionController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 16:07:53 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Locacion\obtener_segun_tipo_locacion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\Locacion\\obtener_segun_tipo_locacion.ctp',
+)
+Request URL: /locacion/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LocacionController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 16:08:26 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Locacion\obtener_segun_tipo_locacion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\Locacion\\obtener_segun_tipo_locacion.ctp',
+)
+Request URL: /locacion/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LocacionController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 16:09:03 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Locacion\obtener_segun_tipo_locacion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\Locacion\\obtener_segun_tipo_locacion.ctp',
+)
+Request URL: /locacion/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(LocacionController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 16:09:50 Error: [MissingControllerException] Controller class LocacionesController could not be found.
+Exception Attributes: array (
+  'class' => 'LocacionesController',
+  'plugin' => NULL,
+)
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 16:10:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\LocacionesController.php, line 25]
+2014-12-16 16:10:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 16:15:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\LocacionesController.php, line 25]
+2014-12-16 16:15:34 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 16:17:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\LocacionesController.php, line 25]
+2014-12-16 16:17:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 16:19:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\LocacionesController.php, line 25]
+2014-12-16 16:19:40 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-16 16:19:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\Controller\LocacionesController.php, line 25]
+2014-12-16 16:19:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /locaciones/obtenerSegunTipoLocacion
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 25, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-23 00:33:07 Error: [MissingControllerException] Controller class TipoLocacionController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoLocacionController',
+  'plugin' => NULL,
+)
+Request URL: /tipoLocacion/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-23 00:33:12 Error: [MissingControllerException] Controller class TipoLocacionController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoLocacionController',
+  'plugin' => NULL,
+)
+Request URL: /tipoLocacion/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-23 00:34:48 Error: [MissingControllerException] Controller class TipoLocacionController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoLocacionController',
+  'plugin' => NULL,
+)
+Request URL: /tipoLocacion/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-23 00:39:02 Error: [MissingControllerException] Controller class TipoLocacionController could not be found.
+Exception Attributes: array (
+  'class' => 'TipoLocacionController',
+  'plugin' => NULL,
+)
+Request URL: /tipoLocacion/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-23 00:39:25 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\TipoLocaciones\obtener_cantidad_adultos.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\TipoLocaciones\\obtener_cantidad_adultos.ctp',
+)
+Request URL: /tipoLocaciones/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoLocacionesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-23 00:41:59 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\TipoLocaciones\obtener_cantidad_adultos.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\TipoLocaciones\\obtener_cantidad_adultos.ctp',
+)
+Request URL: /tipoLocaciones/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoLocacionesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-23 00:42:20 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\TipoLocaciones\obtener_cantidad_adultos.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\TipoLocaciones\\obtener_cantidad_adultos.ctp',
+)
+Request URL: /tipoLocaciones/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoLocacionesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-23 00:42:35 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\TipoLocaciones\obtener_cantidad_adultos.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\TipoLocaciones\\obtener_cantidad_adultos.ctp',
+)
+Request URL: /tipoLocaciones/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoLocacionesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-23 00:42:57 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\TipoLocaciones\obtener_cantidad_adultos.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src2\\app\\View\\TipoLocaciones\\obtener_cantidad_adultos.ctp',
+)
+Request URL: /tipoLocaciones/obtenerCantidadAdultos
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TipoLocacionesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-23 02:09:56 Error: Fatal Error (1): Cannot unset string offsets in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\Helper\JsHelper.php, line 427]
+2014-12-23 02:09:56 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-23 02:11:02 Error: Fatal Error (1): Call to a member function event() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Reservas\add.ctp, line 119]
+2014-12-23 02:11:02 Error: [FatalErrorException] Call to a member function event() on a non-object
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 119)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 119, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 119, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-23 02:11:24 Error: Fatal Error (1): Call to a member function event() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\app\View\Reservas\add.ctp, line 110]
+2014-12-23 02:11:24 Error: [FatalErrorException] Call to a member function event() on a non-object
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 110)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 110, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 110, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-23 02:12:08 Error: Fatal Error (1): Cannot unset string offsets in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\View\Helper\JsHelper.php, line 427]
+2014-12-23 02:12:08 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'G:\Dropbox\Mis ...', 427, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src2\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+>>>>>>> 5cac9f71a18edeeb9be46ef9e070399c332574ab
