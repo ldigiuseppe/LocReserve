@@ -8,7 +8,7 @@ App::uses('AppModel', 'Model');
  */
 class Rol extends AppModel {
 
-    public $useTable = 'Roles';
+    public $useTable = 'roles';
     public $primaryKey = 'id';
 
     /**
