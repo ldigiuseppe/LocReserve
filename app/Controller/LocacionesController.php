@@ -19,7 +19,7 @@ class LocacionesController extends AppController {
     }
 
     public function obtenerSegunTipoLocacion() {
-        //var_dump($this->request);
+
         $tipo_locacion_id = $this->request->data['Reserva']['tipo_cabania'];
 
         $this->loadModel('Locacion');
@@ -30,6 +30,29 @@ class LocacionesController extends AppController {
         ));
 
         $this->set('locaciones', $locaciones);
+        $this->layout = 'ajax';
+    }
+
+    public function obtenerCantidadAdultosLocacion() {
+
+        $tipo_locacion_id = $this->request->data['Reserva']['tipo_cabania'];
+
+        $this->loadModel('TipoLocacion');
+
+        $locaciones = $this->TipoLocacion->find('first', array(
+            'conditions' => array('TipoLocacion.id' => $tipo_locacion_id),
+            'recursive' => -1
+        ));
+
+        $cantidad_adultos = $locaciones ['TipoLocacion'] ['cantidad_adultos'];
+
+        $arreglo_cantidades = array();
+
+        for ($i = 0; $i <= $cantidad_adultos; $i++) {
+            $arreglo_cantidades [$i] = $i;
+        }
+
+        $this->set('arreglo_cantidades', $arreglo_cantidades);
         $this->layout = 'ajax';
     }
 

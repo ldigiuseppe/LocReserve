@@ -9,6 +9,7 @@ App::uses('AppModel', 'Model');
  * @property Cliente $Cliente
  */
 class Reserva extends AppModel {
+    public $actsAs = array('Containable');
 
     public $useTable = 'reservas';
     public $primaryKey = 'id';
@@ -48,9 +49,9 @@ class Reserva extends AppModel {
         ),
         'fecha_desde' => array(
             'date' => array(
-                'rule' => array('date'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'rule' => array('date', 'dmy'),
+            'message' => 'Completa este campo antes de continuar',
+            'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -58,9 +59,9 @@ class Reserva extends AppModel {
         ),
         'fecha_hasta' => array(
             'date' => array(
-                'rule' => array('date'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'rule' => array('date', 'dmy'),
+            'message' => 'Completa este campo antes de continuar',
+            'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -70,7 +71,7 @@ class Reserva extends AppModel {
             'time' => array(
                 'rule' => array('time'),
             //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+            'allowEmpty' => true,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -81,7 +82,7 @@ class Reserva extends AppModel {
                 'rule' => array('numeric'),
             //'message' => 'Your custom message here',
             //'allowEmpty' => false,
-            //'required' => false,
+            'required' => true,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),
@@ -91,7 +92,7 @@ class Reserva extends AppModel {
                 'rule' => array('numeric'),
             //'message' => 'Your custom message here',
             //'allowEmpty' => false,
-            //'required' => false,
+            'required' => true,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),

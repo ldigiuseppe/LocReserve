@@ -9,7 +9,7 @@ App::uses('AppModel', 'Model');
  * @property Reserva $Reserva
  */
 class Cliente extends AppModel {
-    
+
     public $useTable = 'clientes';
     public $primaryKey = 'id';
 
@@ -29,8 +29,8 @@ class Cliente extends AppModel {
         'nombre' => array(
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -39,8 +39,8 @@ class Cliente extends AppModel {
         'apellido' => array(
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -49,7 +49,7 @@ class Cliente extends AppModel {
         'email' => array(
             'email' => array(
                 'rule' => array('email'),
-            //'message' => 'Your custom message here',
+            'message' => 'Ingrese un email válido',
             //'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
@@ -57,8 +57,8 @@ class Cliente extends AppModel {
             ),
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
@@ -67,25 +67,17 @@ class Cliente extends AppModel {
         'telefono' => array(
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule
             //'on' => 'create', // Limit validation to 'create' or 'update' operations
-            ),
-            'phone' => array(
-                'rule' => array('phone'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
-            ),
+            )
         ),
         'pais_id' => array(
             'numeric' => array(
                 'rule' => array('numeric'),
-            //'message' => 'Your custom message here',
+            'message' => 'Seleccione una opción',
             //'allowEmpty' => false,
             //'required' => false,
             //'last' => false, // Stop validation after this rule

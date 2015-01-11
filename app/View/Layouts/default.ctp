@@ -10,23 +10,20 @@
             <?php echo $this->fetch('title'); ?>
         </title>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
         <?php
         echo $this->Html->meta('icon');
+        //echo $this->Html->script('jquery.js');
+        echo $this->Html->script('jquery-1.10.2.js');
+        echo $this->Html->script('jquery-ui.js');
+        echo $this->Html->script('datepicker-es.js');
+        echo $this->Html->script('bootstrap.min.js');
+       
         echo $this->Html->css('style');
-        echo $this->Html->script('datepicker-es');
+        echo $this->Html->css('jquery-ui.css');
+        echo $this->Html->css('bootstrap.min.css');
+        echo $this->Html->css('bootstrap-theme.min.css');
 
+        
         echo $this->fetch('meta');
         echo $this->fetch('css');
         echo $this->fetch('script');
