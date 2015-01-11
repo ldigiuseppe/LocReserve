@@ -150,7 +150,7 @@
                 cols += '<td>' + tipoCabania + '</td>';
                 cols += '<td>' + numeroCabania + '</td>';
                 cols += '<td>' + cantidadAdultos + '</td>';
-                cols += '<td><input type="button" class="btnDelete"  value="Delete" ></td>';
+                cols += '<td><input type="button" class="btnDelete"  value="Quitar" ></td>';
 
                 cols += '<input type="hidden" name="data[Reserva][LocacionReserva][' + i + '][locacion_id]" value="' + numeroCabaniaVal + '"/>';
                 cols += '<input type="hidden" name="data[Reserva][LocacionReserva][' + i + '][cantidad_adultos]" value="' + cantidadAdultosVal + '"/>';
