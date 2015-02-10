@@ -31,9 +31,6 @@ class Cliente extends AppModel {
                 'rule' => array('notEmpty'),
                 'message' => 'Completa este campo antes de continuar',
                 'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),
         ),
         'apellido' => array(
@@ -41,27 +38,13 @@ class Cliente extends AppModel {
                 'rule' => array('notEmpty'),
                 'message' => 'Completa este campo antes de continuar',
                 'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),
         ),
         'email' => array(
             'email' => array(
                 'rule' => array('email'),
-            'message' => 'Ingrese un email válido',
-            //'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
-            ),
-            'notEmpty' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'Completa este campo antes de continuar',
-                'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'message' => 'Ingrese un email válido',
+                'allowEmpty' => true,
             ),
         ),
         'telefono' => array(
@@ -69,19 +52,13 @@ class Cliente extends AppModel {
                 'rule' => array('notEmpty'),
                 'message' => 'Completa este campo antes de continuar',
                 'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
             )
         ),
         'pais_id' => array(
             'numeric' => array(
                 'rule' => array('numeric'),
-            'message' => 'Seleccione una opción',
-            //'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'message' => 'Seleccione una opción',
+                'allowEmpty' => true,
             ),
         ),
     );

@@ -8,7 +8,6 @@ App::uses('AppModel', 'Model');
  * @property TipoLocacion $TipoLocacion
  */
 class Locacion extends AppModel {
-    public $actsAs = array('Containable');
 
     public $useTable = 'locaciones';
     public $name = 'Locaciones';

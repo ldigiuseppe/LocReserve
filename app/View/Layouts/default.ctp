@@ -12,18 +12,23 @@
 
         <?php
         echo $this->Html->meta('icon');
-        //echo $this->Html->script('jquery.js');
+        
         echo $this->Html->script('jquery-1.10.2.js');
         echo $this->Html->script('jquery-ui.js');
         echo $this->Html->script('datepicker-es.js');
         echo $this->Html->script('bootstrap.min.js');
-       
+        
+        echo $this->Html->script('moment.min.js');
+        echo $this->Html->script('fullcalendar.min.js');
+        echo $this->Html->script('fc-lang-es.js');
+
         echo $this->Html->css('style');
         echo $this->Html->css('jquery-ui.css');
         echo $this->Html->css('bootstrap.min.css');
         echo $this->Html->css('bootstrap-theme.min.css');
-
         
+        echo $this->Html->css('fullcalendar.min.css');
+
         echo $this->fetch('meta');
         echo $this->fetch('css');
         echo $this->fetch('script');
@@ -43,11 +48,6 @@
             </div>
 
             <div class="footer">
-                <?php
-                /* echo $this->Html->link(
-                  $this->Html->image('cake.power.gif', array('alt' => 'CAKEPHP', 'border' => '0')), 'http://www.cakephp.org/', array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-                  ); */
-                ?>
                 <p>
                 </p>
             </div>

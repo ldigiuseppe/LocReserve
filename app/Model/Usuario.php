@@ -19,7 +19,7 @@ class Usuario extends AppModel {
      *
      * @var string
      */
-    public $displayField = 'nombre';
+    public $displayField = 'apellido';
 
     /**
      * Validation rules

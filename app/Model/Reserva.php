@@ -9,7 +9,6 @@ App::uses('AppModel', 'Model');
  * @property Cliente $Cliente
  */
 class Reserva extends AppModel {
-    public $actsAs = array('Containable');
 
     public $useTable = 'reservas';
     public $primaryKey = 'id';
@@ -30,71 +29,57 @@ class Reserva extends AppModel {
         'fecha_creacion' => array(
             'datetime' => array(
                 'rule' => array('datetime'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),
         ),
         'fecha_actualizacion' => array(
             'datetime' => array(
                 'rule' => array('datetime'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
             ),
         ),
         'fecha_desde' => array(
             'date' => array(
-                'rule' => array('date', 'dmy'),
-            'message' => 'Completa este campo antes de continuar',
-            'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'rule' => array('date', 'ymd'),
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             ),
         ),
         'fecha_hasta' => array(
             'date' => array(
-                'rule' => array('date', 'dmy'),
-            'message' => 'Completa este campo antes de continuar',
-            'allowEmpty' => false,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'rule' => array('date', 'ymd'),
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             ),
         ),
         'hora_arribo' => array(
             'time' => array(
                 'rule' => array('time'),
-            //'message' => 'Your custom message here',
-            'allowEmpty' => true,
-            //'required' => false,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'allowEmpty' => true,
+            ),
+        ),
+        'total' => array(
+            'notEmpty' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
+            ),
+        ),
+        'senia' => array(
+            'notEmpty' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Completa este campo antes de continuar',
+                'allowEmpty' => false,
             ),
         ),
         'usuario_id' => array(
             'numeric' => array(
                 'rule' => array('numeric'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
-            'required' => true,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'required' => true,
             ),
         ),
         'cliente_id' => array(
             'numeric' => array(
                 'rule' => array('numeric'),
-            //'message' => 'Your custom message here',
-            //'allowEmpty' => false,
-            'required' => true,
-            //'last' => false, // Stop validation after this rule
-            //'on' => 'create', // Limit validation to 'create' or 'update' operations
+                'required' => true,
             ),
         ),
     );

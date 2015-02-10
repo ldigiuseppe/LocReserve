@@ -51,6 +51,9 @@ class UsuariosController extends AppController {
         if ($this->request->is('post')) {
 
             $this->Usuario->create();
+            $this->Usuario->set('estado', '1');
+            $this->Usuario->set('registro', date("Y-m-d H:i:s"));
+
             if ($this->Usuario->save($this->request->data)) {
                 $this->Session->setFlash(__('El nuevo usuario ha sido creado'), 'flash_success');
                 $this->redirect(array('action' => 'index'));

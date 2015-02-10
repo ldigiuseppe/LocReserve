@@ -49,13 +49,12 @@ class AppController extends Controller {
                     ),
                 )
             ),
-            'loginRedirect' => array('controller' => 'usuarios', 'action' => 'index'),
+            'loginRedirect' => array('controller' => 'reservas', 'action' => 'index'),
             'logoutRedirect' => array('controller' => 'usuarios', 'action' => 'login'),
             'authError' => 'Debe ingresar al sistema para acceder a esta página.',
             'loginError' => 'Email o contraseña incorrecta. Intentalo de nuevo.',
         )
     );
-    
     public $helpers = array('Form' => array('className' => 'BootstrapForm'));
 
     public function beforeFilter() {
@@ -67,6 +66,26 @@ class AppController extends Controller {
 // Here is where we should verify the role and give access based on role
 
         return true;
+    }
+
+    public function cambiarfecha_mysql($fecha) {
+        list($dia, $mes, $ano) = explode("/", $fecha);
+        return "$ano-$mes-$dia";
+    }
+
+    function cambiarfecha_espaniol($fecha) {
+        list($ano, $mes, $dia) = explode("-", $fecha);
+        return "$dia/$mes/$ano";
+    }
+
+    function rand_color() {
+        return sprintf('#%06X', mt_rand(0, 0xFFFFFF));
+    }
+
+    function stringToColorCode($str) {
+        $code = dechex(crc32($str));
+        $code = substr($code, 0, 6);
+        return $code;
     }
 
 }
