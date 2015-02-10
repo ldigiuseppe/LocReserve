@@ -247,9 +247,7 @@
                     <div class="content">
                         <table bgcolor="#FFFFFF">
                             <tr>
-                                <td><img src="http://www.cabaniaslosrobles.com.ar/logo.png" height="100" width="90" /></td>
-                                <td align="right"><h6 class="collapse">Los Robles Complejo de Cabañas</h6></td>
-
+                                <td><img src="http://complejolosrobles.com.ar/img/logo-hor.png"/></td>
                             </tr>
                         </table>
                     </div>
@@ -342,7 +340,7 @@
                                                         <td>				
                                                             <h5 class="">Información de contacto:</h5>												
                                                             <p>Telefono: <strong>0297 66666666</strong><br/>
-                                                                Email: <strong><a href="emailto:email@email.com">email@email.com</a></strong></p>
+                                                                Email: <strong>email@email.com</strong></p>
                                                         </td>
                                                     </tr>
                                                 </table><!-- /column 2 -->
