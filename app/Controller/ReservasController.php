@@ -514,11 +514,10 @@ class ReservasController extends AppController {
 
             $fecha_desde = ($this->data['Reserva']['fecha_desde']);
 
-
-            $Email = new CakeEmail('gmail');
+            $Email = new CakeEmail('smtp');
             $Email->template('nueva_reserva', 'default');
             $Email->emailFormat('html');
-            $Email->from(array('info@losrobles.com' => 'Los Robles'));
+            $Email->from(array('info@complejolosrobles.com.ar' => 'Los Robles'));
             $Email->to($email);
             $Email->subject('Nueva Reserva Realizada');
             $Email->viewVars(array(
@@ -527,7 +526,9 @@ class ReservasController extends AppController {
                 'fecha_hasta' => $fecha_hasta,
                 'reserva' => $data
             ));
-            $Email->send();
+            $resultado = $Email->send();
+            
+            //var_dump($resultado);
         }
     }
 
