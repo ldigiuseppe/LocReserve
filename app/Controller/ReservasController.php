@@ -160,12 +160,7 @@ class ReservasController extends AppController {
 
             // Verifico que existan datos
             if (!empty($data)) {
-                
-                echo '<pre>';
-                var_dump($data);
-                echo '</pre>';
-                exit;
-
+               
                 //Cargo modelos
                 $this->loadModel('Cliente');
                 $this->loadModel('LocacionReserva');
