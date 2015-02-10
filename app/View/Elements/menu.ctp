@@ -11,15 +11,18 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <?php if (AuthComponent::user('id')): ?>
-                <ul class="nav navbar-nav">
-                    <li><?php echo $this->Html->link("Dashboard", array('controller' => 'web', 'action' => 'index')); ?></li>
+            <ul class="nav navbar-nav">
+                <li><?php echo $this->Html->link("Dashboard", array('controller' => 'web', 'action' => 'index')); ?></li>
+                <?php if (AuthComponent::user('rol_id') == 1) { ?>
                     <li><?php echo $this->Html->link("Usuarios", array('controller' => 'usuarios', 'action' => 'index')); ?></li>
-                    <li><?php echo $this->Html->link("Reservas", array('controller' => 'reservas', 'action' => 'index')); ?></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Perfil</a></li>
-                    <li><?php echo $this->Html->link("Salir", array('action' => 'logout')); ?></li>
-                </ul>
+                <?php } ?>
+                <li><?php echo $this->Html->link("Reservas", array('controller' => 'reservas', 'action' => 'index')); ?></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+<!--                <li><a href="#">Perfil</a></li>-->
+                <li><a href="#"><?php echo (AuthComponent::user('apellido')).', '.(AuthComponent::user('nombre')); ?></a></li>
+                <li><?php echo $this->Html->link("Salir", array('controller' => 'usuarios','action' => 'logout')); ?></li>
+            </ul>
             <?php endif; ?>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->

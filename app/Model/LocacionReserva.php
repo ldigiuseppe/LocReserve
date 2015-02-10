@@ -9,7 +9,6 @@ App::uses('AppModel', 'Model');
  * @property Reserva $Reserva
  */
 class LocacionReserva extends AppModel {
-    public $actsAs = array('Containable');
 
     public $useTable = 'locacion_reserva';
 

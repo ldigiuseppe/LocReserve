@@ -33,6 +33,7 @@ Router::connect('/dashboard', array('controller' => 'usuarios', 'action' => 'ind
 Router::connect('/login', array('controller' => 'usuarios', 'action' => 'login'));
 Router::connect('/logout', array('controller' => 'usuarios', 'action' => 'logout'));
 
+Router::parseExtensions('pdf');
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
