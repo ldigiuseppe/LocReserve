@@ -51,19 +51,19 @@ class EmailConfig {
 
 	public $default = array(
 		'transport' => 'Mail',
-		'from' => 'you@localhost',
+		'from' => 'info@complejolosrobles.com.ar',
 		//'charset' => 'utf-8',
 		//'headerCharset' => 'utf-8',
 	);
 
 	public $smtp = array(
 		'transport' => 'Smtp',
-		'from' => array('site@localhost' => 'My Site'),
-		'host' => 'localhost',
+		'from' => array('info@complejolosrobles.com.ar' => 'Complejo Los Robles'),
+		'host' => 'complejolosrobles.com.ar',
 		'port' => 25,
 		'timeout' => 30,
-		'username' => 'user',
-		'password' => 'secret',
+		'username' => 'info@complejolosrobles.com.ar',
+		'password' => '9wkajWcn',
 		'client' => null,
 		'log' => false,
 		//'charset' => 'utf-8',
