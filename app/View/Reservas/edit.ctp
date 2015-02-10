@@ -189,7 +189,7 @@
                     <?php
                     echo $this->Form->input('Reserva.tipo_pago', array(
                         'options' => array("Pago parcial", "Pago total", "Impago"),
-                        'disabled' => 'disabled'
+                        'readonly' => 'readonly'
                     ));
                     ?>
                 </div>
@@ -480,14 +480,14 @@
         function cargarRestante() {
             $total = $("#ReservaTotal").val();
             $senia = $("#ReservaSenia").val();
-            
+
             console.log($total);
             console.log($senia);
-            
+
             $diff = $total - $senia;
-            
+
             $("#resta").empty();
-            
+
             if ($total != '' && $senia != '') {
                 $("#resta").append($diff);
             }

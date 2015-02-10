@@ -40,7 +40,8 @@ class UsuariosController extends AppController {
 
     public function index() {
         $this->paginate = array(
-            'limit' => 6,
+            'contain' => 'Rol',
+            'limit' => 10,
             'order' => array('Usuario.id' => 'asc')
         );
         $usuarios = $this->paginate('Usuario');

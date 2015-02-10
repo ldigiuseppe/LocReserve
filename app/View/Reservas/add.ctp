@@ -195,7 +195,7 @@
                     <?php
                     echo $this->Form->input('Reserva.tipo_pago', array(
                         'options' => array("Pago parcial", "Pago total", "Impago"),
-                        'disabled' => 'disabled'
+                        'readonly' => 'readonly'
                     ));
                     ?>
                 </div>

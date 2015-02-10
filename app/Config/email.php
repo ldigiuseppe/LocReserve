@@ -71,7 +71,7 @@ class EmailConfig {
 	);
 
 	public $fast = array(
-		'from' => 'you@localhost',
+		'from' => 'info@complejolosrobles.com.ar',
 		'sender' => null,
 		'to' => null,
 		'cc' => null,
@@ -93,8 +93,8 @@ class EmailConfig {
 		'host' => 'localhost',
 		'port' => 25,
 		'timeout' => 30,
-		'username' => 'user',
-		'password' => 'secret',
+		'username' => 'info@complejolosrobles.com.ar',
+		'password' => '9wkajWcn',
 		'client' => null,
 		'log' => true,
 		//'charset' => 'utf-8',
