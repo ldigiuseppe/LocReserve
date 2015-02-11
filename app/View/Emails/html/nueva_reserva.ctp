@@ -1,16 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <!-- If you delete this meta tag, Half Life 3 will never be released. -->
         <meta name="viewport" content="width=device-width" />
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Nueva reserva realizada</title>
 
         <style>
-            /* ------------------------------------- 
-                GLOBAL 
-------------------------------------- */
             * { 
                 margin:0;
                 padding:0;
@@ -167,13 +163,6 @@
             ul.sidebar li a.last { border-bottom-width:0px;}
             ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
 
-
-
-            /* --------------------------------------------------- 
-                            RESPONSIVENESS
-                            Nuke it from orbit. It's the only way to be sure. 
-            ------------------------------------------------------ */
-
             /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
             .container {
                 display:block!important;
@@ -215,12 +204,6 @@
             /* Be sure to place a .clear element after each set of columns, just to be safe */
             .clear { display: block; clear: both; }
 
-
-            /* ------------------------------------------- 
-                            PHONE
-                            For clients that support media queries.
-                            Nothing fancy. 
-            -------------------------------------------- */
             @media only screen and (max-width: 600px) {
 
                 a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
