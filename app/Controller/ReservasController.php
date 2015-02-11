@@ -517,7 +517,8 @@ class ReservasController extends AppController {
             $Email = new CakeEmail('smtp');
             $Email->template('nueva_reserva', 'default');
             $Email->emailFormat('html');
-            $Email->from(array('info@complejolosrobles.com.ar' => 'Los Robles'));
+            $Email->from(array('info@complejolosrobles.com.ar' => 'Complejo Los Robles'));
+            $Email->sender('info@complejolosrobles.com.ar', 'Complejo Los Robles');
             $Email->to($email);
             $Email->subject('Nueva Reserva Realizada');
             $Email->viewVars(array(
@@ -528,7 +529,6 @@ class ReservasController extends AppController {
             ));
             $resultado = $Email->send();
             
-            //var_dump($resultado);
         }
     }
 
