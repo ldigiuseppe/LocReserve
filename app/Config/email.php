@@ -44,7 +44,7 @@ class EmailConfig {
         'host' => 'ssl://smtp.gmail.com',
         'port' => 465,
         'username' => 'ldigiuseppe@gmail.com',
-        'password' => 'moyano2135',
+        'password' => '',
         'transport' => 'Smtp'
     );
 
