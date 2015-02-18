@@ -517,7 +517,7 @@ class ReservasController extends AppController {
             $Email->template('nueva_reserva', 'default');
             $Email->emailFormat('html');
             $Email->from(array('info@complejolosrobles.com.ar' => 'Complejo Los Robles'));
-            $Email->replyTo('no-reply@complejolosrobles.com.ar', 'Complejo Los Robles');
+            $Email->sender('info@complejolosrobles.com.ar', 'Complejo Los Robles');
             $Email->to($email);
             $Email->subject('Nueva Reserva Realizada');
             $Email->viewVars(array(
@@ -527,8 +527,7 @@ class ReservasController extends AppController {
                 'reserva' => $data
             ));
             $resultado = $Email->send();
-
-            //var_dump($resultado);
+            
         }
     }
 
