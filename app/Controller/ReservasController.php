@@ -160,7 +160,7 @@ class ReservasController extends AppController {
 
             // Verifico que existan datos
             if (!empty($data)) {
-
+               
                 //Cargo modelos
                 $this->loadModel('Cliente');
                 $this->loadModel('LocacionReserva');
@@ -204,14 +204,14 @@ class ReservasController extends AppController {
                                 $this->LocacionReserva->save($locacion_reserva);
                             }
                             if ($reservaDisponible) {
-
+                                
                                 $dataSource->commit();
-
+                                
                                 //Si tenemos mail de cliente le informamos por email la reserva
-                                if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != '') {
-                                    $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id);
+                                if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != ''){
+                                    $this->enviarEmailReserva($data['Cliente']['nombre']." ".$data['Cliente']['apellido'], $data['Cliente']['email'] , $this->Reserva->id);    
                                 }
-
+                                
                                 //informamos por mail la reserva al usuario
                                 $this->enviarEmailReserva($this->Auth->user('nombre'), $this->Auth->user('email'), $this->Reserva->id);
 
@@ -484,13 +484,13 @@ class ReservasController extends AppController {
             $fecha_desde = $this->cambiarfecha_espaniol($this->data['Reserva']['fecha_desde']);
             $this->set(compact('fecha_desde'));
 
-            /* $params = array(
-              'download' => false,
-              'name' => 'example.pdf',
-              'paperOrientation' => 'portrait',
-              'paperSize' => 'legal'
-              );
-              $this->set($params); */
+           /* $params = array(
+                'download' => false,
+                'name' => 'example.pdf',
+                'paperOrientation' => 'portrait',
+                'paperSize' => 'legal'
+            );
+            $this->set($params);*/
         }
     }
 
@@ -511,6 +511,7 @@ class ReservasController extends AppController {
             ));
 
             $fecha_hasta = ($this->data['Reserva']['fecha_hasta']);
+
             $fecha_desde = ($this->data['Reserva']['fecha_desde']);
 
             $Email = new CakeEmail('smtp');
