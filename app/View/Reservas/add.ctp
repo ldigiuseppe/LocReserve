@@ -163,13 +163,6 @@
             </div>
 
             <div class="form-group">
-                <!--                <label class="col-sm-2 control-label">País:</label>
-                                <div class="col-sm-3">
-                <?php
-//                        echo $this->Form->input('Cliente.pais_id', array(
-//                        'options' => array($paises)));
-                ?>
-                                </div>-->
                 <label class="col-sm-2 control-label">Ocupación:</label>
                 <div class="col-sm-3">
                     <?php
@@ -192,10 +185,12 @@
             <div class="form-group">
                 <label class="col-sm-1 control-label">Pago:</label>
                 <div class="col-sm-2">
+                    <p class="form-control-static" id="tipo_pago"></p>
                     <?php
                     echo $this->Form->input('Reserva.tipo_pago', array(
                         'options' => array("Pago parcial", "Pago total", "Impago"),
-                        'readonly' => 'readonly'
+                        'readonly' => 'readonly',
+                        'type' => 'hidden'
                     ));
                     ?>
                 </div>
@@ -229,18 +224,18 @@
                     <?php echo $this->Form->textarea('Reserva.info_adicional', array('rows' => '6', 'cols' => '80'));
                     ?>
                 </div>
-                <label class="col-sm-offset-1 col-sm-2 control-label">Horario de arribo:</label>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Horario de arribo:</label>
                 <div class="col-sm-1">
                     <?php echo $this->Form->hour('hora_arribo', true); ?>
                 </div>
-            </div>
-
-
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-8">
+                <div class="col-sm-offset-2 col-sm-2">
                     <?php echo $this->Form->submit(__('Guardar'), array('class' => 'btn btn-primary')) ?>
                 </div>
+
             </div>
+
 
             <?php echo $this->Form->end(); ?>
         </div>
@@ -457,13 +452,10 @@
                 $selectList.append(option);
             }
         }
-        
+
         function cargarRestante() {
             $total = $("#ReservaTotal").val();
             $senia = $("#ReservaSenia").val();
-
-            console.log($total);
-            console.log($senia);
 
             $diff = $total - $senia;
 
@@ -474,11 +466,14 @@
             }
 
             if ($senia == 0 || $senia == '0') {
+                $("#tipo_pago").text("Impago");
                 $("#ReservaTipoPago").val("2"); // inpago
             }
             else if ($diff == 0) {
+                $("#tipo_pago").text("Total");
                 $("#ReservaTipoPago").val("1"); // pago total
             } else {
+                $("#tipo_pago").text("Parcial");
                 $("#ReservaTipoPago").val("0"); // pago parcial
             }
         }
