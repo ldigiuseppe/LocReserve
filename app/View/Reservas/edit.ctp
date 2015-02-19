@@ -186,10 +186,12 @@
             <div class="form-group">
                 <label class="col-sm-1 control-label">Pago:</label>
                 <div class="col-sm-2">
+                    <p class="form-control-static" id="tipo_pago"></p>
                     <?php
                     echo $this->Form->input('Reserva.tipo_pago', array(
                         'options' => array("Pago parcial", "Pago total", "Impago"),
-                        'readonly' => 'readonly'
+                        'readonly' => 'readonly',
+                        'type' => 'hidden'
                     ));
                     ?>
                 </div>
@@ -248,6 +250,7 @@
         $(function () {
 
             cargarTipoLocaciones();
+            cargarRestante();
 
             $("#fecha_desde").datepicker({
                 numberOfMonths: 2,
@@ -481,9 +484,6 @@
             $total = $("#ReservaTotal").val();
             $senia = $("#ReservaSenia").val();
 
-            console.log($total);
-            console.log($senia);
-
             $diff = $total - $senia;
 
             $("#resta").empty();
@@ -493,11 +493,14 @@
             }
 
             if ($senia == 0 || $senia == '0') {
-                $("#ReservaTipoPago").val("2"); // inpago
+                $("#tipo_pago").text("Impago");
+                $("#ReservaTipoPago").val("2"); // impago
             }
             else if ($diff == 0) {
+                $("#tipo_pago").text("Total");
                 $("#ReservaTipoPago").val("1"); // pago total
             } else {
+                $("#tipo_pago").text("Parcial");
                 $("#ReservaTipoPago").val("0"); // pago parcial
             }
         }

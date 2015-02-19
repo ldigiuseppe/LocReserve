@@ -88,6 +88,14 @@ class ReservasController extends AppController {
                 );
                 array_push($filtroReserva, $filtro);
             }
+        } else {
+            $fecha_hoy = date('Y-m-d');
+            $filtro = array(
+                'Reserva.fecha_desde >=' => $fecha_hoy
+            );
+            $fecha_hoy =  $this->cambiarfecha_espaniol($fecha_hoy);
+            array_push($filtroReserva, $filtro);
+            $this->set(compact('fecha_hoy'));
         }
 
         $this->paginate = array(
@@ -117,7 +125,7 @@ class ReservasController extends AppController {
             ),
             'conditions' => $filtroReserva,
             'limit' => 100,
-            'order' => array('Reserva.fecha_desde' => 'desc', 'Reserva.id' => 'desc')
+            'order' => array('Reserva.fecha_desde' => 'asc', 'Reserva.id' => 'desc')
         );
         $this->set('reservas', $this->paginate($this->Reserva));
 
@@ -147,7 +155,7 @@ class ReservasController extends AppController {
         $this->set('locaciones', $this->Locacion->find('list'));
         $this->set('lista_pagos', array("Pago parcial", "Pago total", "Impago"));
 
-        $this->set(compact('reservas'));
+//        $this->set(compact('reservas'));
     }
 
     public function add() {
@@ -160,7 +168,7 @@ class ReservasController extends AppController {
 
             // Verifico que existan datos
             if (!empty($data)) {
-               
+
                 //Cargo modelos
                 $this->loadModel('Cliente');
                 $this->loadModel('LocacionReserva');
@@ -204,14 +212,14 @@ class ReservasController extends AppController {
                                 $this->LocacionReserva->save($locacion_reserva);
                             }
                             if ($reservaDisponible) {
-                                
+
                                 $dataSource->commit();
-                                
+
                                 //Si tenemos mail de cliente le informamos por email la reserva
-                                if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != ''){
-                                    $this->enviarEmailReserva($data['Cliente']['nombre']." ".$data['Cliente']['apellido'], $data['Cliente']['email'] , $this->Reserva->id);    
+                                if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != '') {
+                                    $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id);
                                 }
-                                
+
                                 //informamos por mail la reserva al usuario
                                 $this->enviarEmailReserva($this->Auth->user('nombre'), $this->Auth->user('email'), $this->Reserva->id);
 
@@ -484,13 +492,13 @@ class ReservasController extends AppController {
             $fecha_desde = $this->cambiarfecha_espaniol($this->data['Reserva']['fecha_desde']);
             $this->set(compact('fecha_desde'));
 
-           /* $params = array(
-                'download' => false,
-                'name' => 'example.pdf',
-                'paperOrientation' => 'portrait',
-                'paperSize' => 'legal'
-            );
-            $this->set($params);*/
+            /* $params = array(
+              'download' => false,
+              'name' => 'example.pdf',
+              'paperOrientation' => 'portrait',
+              'paperSize' => 'legal'
+              );
+              $this->set($params); */
         }
     }
 
@@ -528,8 +536,31 @@ class ReservasController extends AppController {
                 'reserva' => $data
             ));
             $resultado = $Email->send();
-            
         }
+    }
+
+    function pagar($idReserva = null) {
+        if ($idReserva != null) {
+            $this->Reserva->updateAll(
+                    array('Reserva.tipo_pago' => "'1'"), array('Reserva.id' => $idReserva)
+            );
+            $this->Session->setFlash(__('El pago se actualizó'), 'flash_success');
+        } else {
+            $this->Session->setFlash(__('No ha brindado un identificador válido'), 'flash_warning');
+        }
+        $this->redirect(array('controller' => 'dashboard', 'action' => 'index'));
+    }
+
+    function impagar($idReserva = null) {
+        if ($idReserva != null) {
+            $this->Reserva->updateAll(
+                    array('Reserva.tipo_pago' => "'0'"), array('Reserva.id' => $idReserva)
+            );
+            $this->Session->setFlash(__('El pago se actualizó'), 'flash_success');
+        } else {
+            $this->Session->setFlash(__('No ha brindado un identificador válido'), 'flash_warning');
+        }
+        $this->redirect(array('controller' => 'dashboard', 'action' => 'index'));
     }
 
 }
