@@ -5709,3 +5709,570 @@ Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
 Stack Trace:
 #0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-22 10:48:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 10:48:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 10:48:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 10:48:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 10:48:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 10:48:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:04:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 11:39:48 Error: Fatal Error (1): Call to undefined method DOMText::getAttribute() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\cellmap.cls.php, line 399]
+2015-02-22 11:39:48 Error: [FatalErrorException] Call to undefined method DOMText::getAttribute()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 399)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 399, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 399, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:47:26 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 11:47:26 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:48:24 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 11:48:24 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:49:50 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 11:49:50 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:53:57 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Reservas\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src3\\app\\View\\Reservas\\view_pdf.ctp',
+)
+Request URL: /reservas/view_pdf/113
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ReservasController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-22 11:57:08 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 11:57:08 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:57:32 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 11:57:32 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 11:58:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\block_frame_reflower.cls.php, line 36]
+2015-02-22 11:58:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 36, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 36, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:01:04 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 169]
+2015-02-22 12:01:05 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 169)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 169, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 169, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:02:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 175]
+2015-02-22 12:02:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 175)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 175, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 175, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:02:55 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame.cls.php, line 1011]
+2015-02-22 12:02:55 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1011)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1011, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1011, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:07:05 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\lib\class.pdf.php, line 2184]
+2015-02-22 12:07:05 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 2184)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 2184, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 2184, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:07:30 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 1350]
+2015-02-22 12:07:30 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1350)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1350, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 1350, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:07:31 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 815]
+2015-02-22 12:07:31 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 815)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 815, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 815, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:07:55 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame.cls.php, line 341]
+2015-02-22 12:07:55 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 341)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 341, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 341, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:08:46 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 700]
+2015-02-22 12:08:46 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:09:13 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame.cls.php, line 510]
+2015-02-22 12:09:13 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 510)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 510, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 510, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:09:26 Error: [Exception] foo
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(51): Cellmap->get_frame_height(Object(Table_Row_Frame_Decorator))
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#5 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#6 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#7 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#8 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#9 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#10 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#11 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#12 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#13 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#14 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#15 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#16 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#17 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#18 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#19 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#20 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#21 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#22 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#23 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#24 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#25 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#26 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#27 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#28 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#29 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Block_Frame_Decorator))
+#30 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\block_frame_reflower.cls.php(722): Frame_Decorator->reflow(Object(Block_Frame_Decorator))
+#31 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Block_Frame_Reflower->reflow(NULL)
+#32 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\page_frame_reflower.cls.php(138): Frame_Decorator->reflow()
+#33 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Page_Frame_Reflower->reflow(NULL)
+#34 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\dompdf.cls.php(817): Frame_Decorator->reflow()
+#35 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Layouts\pdf\default.ctp(10): DOMPDF->render()
+#36 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(954): include('G:\Dropbox\Mis ...')
+#37 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(916): View->_evaluate('G:\Dropbox\Mis ...', Array)
+#38 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(546): View->_render('G:\Dropbox\Mis ...')
+#39 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#40 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#41 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#42 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ReservasController), Object(CakeRequest))
+#43 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#44 {main}
+2015-02-22 12:09:35 Error: [Exception] foo
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(51): Cellmap->get_frame_height(Object(Table_Row_Frame_Decorator))
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#5 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#6 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#7 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#8 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#9 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#10 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#11 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#12 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#13 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#14 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#15 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#16 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#17 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#18 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#19 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#20 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#21 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Table_Cell_Frame_Decorator))
+#22 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_cell_frame_reflower.cls.php(86): Frame_Decorator->reflow(Object(Table_Cell_Frame_Decorator))
+#23 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Cell_Frame_Reflower->reflow(NULL)
+#24 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_frame_reflower.cls.php(41): Frame_Decorator->reflow()
+#25 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Frame_Reflower->reflow(NULL)
+#26 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_row_group_frame_reflower.cls.php(38): Frame_Decorator->reflow()
+#27 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Row_Group_Frame_Reflower->reflow(NULL)
+#28 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_reflower.cls.php(469): Frame_Decorator->reflow()
+#29 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Table_Frame_Reflower->reflow(Object(Block_Frame_Decorator))
+#30 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\block_frame_reflower.cls.php(722): Frame_Decorator->reflow(Object(Block_Frame_Decorator))
+#31 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Block_Frame_Reflower->reflow(NULL)
+#32 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\page_frame_reflower.cls.php(138): Frame_Decorator->reflow()
+#33 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php(556): Page_Frame_Reflower->reflow(NULL)
+#34 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\dompdf.cls.php(817): Frame_Decorator->reflow()
+#35 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Layouts\pdf\default.ctp(10): DOMPDF->render()
+#36 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(954): include('G:\Dropbox\Mis ...')
+#37 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(916): View->_evaluate('G:\Dropbox\Mis ...', Array)
+#38 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(546): View->_render('G:\Dropbox\Mis ...')
+#39 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#40 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#41 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#42 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ReservasController), Object(CakeRequest))
+#43 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#44 {main}
+2015-02-22 12:10:27 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 250]
+2015-02-22 12:10:27 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:10:57 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 424]
+2015-02-22 12:10:57 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:11:27 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 552]
+2015-02-22 12:11:27 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 552)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 552, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 552, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:11:57 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 700]
+2015-02-22 12:11:57 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:13:16 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\inline_positioner.cls.php, line 47]
+2015-02-22 12:13:16 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 47, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 47, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:13:50 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 262]
+2015-02-22 12:13:50 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 262)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 262, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 262, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:14:42 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame.cls.php, line 959]
+2015-02-22 12:14:42 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 959)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 959, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 959, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:16:54 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 150]
+2015-02-22 12:16:54 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 150)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 150, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 150, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:17:38 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 700]
+2015-02-22 12:17:38 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 700, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:19:27 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:19:27 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:19:33 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:19:33 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:22:45 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame.cls.php, line 346]
+2015-02-22 12:22:45 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 346)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 346, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 346, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:23:33 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\style.cls.php, line 424]
+2015-02-22 12:23:33 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 424, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:25:19 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 250]
+2015-02-22 12:25:19 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 250, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:25:49 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\frame_decorator.cls.php, line 183]
+2015-02-22 12:25:49 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 183)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 183, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'G:\Dropbox\Mis ...', 183, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:36:01 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:36:01 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:40:03 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:40:03 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:41:44 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:41:44 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:42:12 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:42:12 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-22 12:42:20 Error: Fatal Error (1): Call to undefined method Inline_Frame_Decorator::normalise() in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Vendor\dompdf\include\table_frame_decorator.cls.php, line 305]
+2015-02-22 12:42:20 Error: [FatalErrorException] Call to undefined method Inline_Frame_Decorator::normalise()
+Request URL: /reservas/view_pdf/113.pdf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'G:\Dropbox\Mis ...', 305, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
