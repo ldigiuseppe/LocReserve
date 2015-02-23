@@ -232,9 +232,6 @@
                 <div class="col-sm-1">
                     <?php echo $this->Form->hour('hora_arribo', true); ?>
                 </div>
-            </div>
-
-            <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-2">
                     <?php echo $this->Form->submit(__('Guardar'), array('class' => 'btn btn-primary')) ?>
                 </div>
