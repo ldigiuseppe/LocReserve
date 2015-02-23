@@ -221,9 +221,9 @@ class ReservasController extends AppController {
                                 }
 
                                 // Se envía un email a los usuarios menos al usuario que realiza la reserva
-                                // $this->loadModel('Usuario');
+                                $this->loadModel('Usuario');
                                 //informamos por mail la reserva al usuario
-                                //$this->Usuario->f
+//                                $this->Usuario->f
                                 $this->enviarEmailReserva($this->Auth->user('nombre'), $this->Auth->user('email'), $this->Reserva->id);
 
                                 $this->Session->setFlash(__('La reserva ha sido guardada'), 'flash_success');
