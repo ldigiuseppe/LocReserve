@@ -47,13 +47,6 @@ class Cliente extends AppModel {
                 'allowEmpty' => true,
             ),
         ),
-        'telefono' => array(
-            'notEmpty' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'Completa este campo antes de continuar',
-                'allowEmpty' => false,
-            )
-        ),
         'pais_id' => array(
             'numeric' => array(
                 'rule' => array('numeric'),
