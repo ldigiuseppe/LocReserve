@@ -71,15 +71,15 @@
 
                                             <h3>Reserva</h3>
 
-                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Total:</label>
+                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Total: $</label>
                                                 <?php echo $reserva['Reserva']['total'] ?>    
                                             </p>
 
-                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Seña:</label>
+                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Seña: $</label>
                                                 <?php echo $reserva['Reserva']['senia'] ?>    
                                             </p>
 
-                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Resta:</label>
+                                            <p><label style="color: #153643; font-family: Arial, sans-serif;">Resta: $</label>
                                                 <?php echo $reserva['Reserva']['total'] - $reserva['Reserva']['senia']; ?>
                                             </p>
 
