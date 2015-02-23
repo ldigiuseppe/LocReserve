@@ -225,14 +225,17 @@
                     <?php echo $this->Form->textarea('Reserva.info_adicional', array('rows' => '6', 'cols' => '80'));
                     ?>
                 </div>
-                <label class="col-sm-offset-1 col-sm-2 control-label">Horario de arribo:</label>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Horario de arribo:</label>
                 <div class="col-sm-1">
                     <?php echo $this->Form->hour('hora_arribo', true); ?>
                 </div>
             </div>
 
             <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-8">
+                <div class="col-sm-offset-2 col-sm-2">
                     <?php echo $this->Form->submit(__('Guardar'), array('class' => 'btn btn-primary')) ?>
                 </div>
             </div>

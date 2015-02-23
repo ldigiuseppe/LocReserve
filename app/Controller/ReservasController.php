@@ -93,7 +93,7 @@ class ReservasController extends AppController {
             $filtro = array(
                 'Reserva.fecha_desde >=' => $fecha_hoy
             );
-            $fecha_hoy =  $this->cambiarfecha_espaniol($fecha_hoy);
+            $fecha_hoy = $this->cambiarfecha_espaniol($fecha_hoy);
             array_push($filtroReserva, $filtro);
             $this->set(compact('fecha_hoy'));
         }
@@ -220,7 +220,10 @@ class ReservasController extends AppController {
                                     $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id);
                                 }
 
+                                // Se envía un email a los usuarios menos al usuario que realiza la reserva
+                                // $this->loadModel('Usuario');
                                 //informamos por mail la reserva al usuario
+                                //$this->Usuario->f
                                 $this->enviarEmailReserva($this->Auth->user('nombre'), $this->Auth->user('email'), $this->Reserva->id);
 
                                 $this->Session->setFlash(__('La reserva ha sido guardada'), 'flash_success');
