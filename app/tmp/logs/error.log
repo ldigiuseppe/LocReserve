@@ -6631,3 +6631,433 @@ Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
 Stack Trace:
 #0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-02-22 22:34:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:34:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'notificacion' in 'where clause'
+Request URL: /reservas/add
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Usuario...', Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Usuario...', true)
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Model.php(2951): DboSource->read(Object(Usuario), Array)
+#5 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Model.php(2923): Model->_readDataSource('all', Array)
+#6 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Controller\ReservasController.php(231): Model->find('all', Array)
+#7 [internal function]: ReservasController->add()
+#8 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ReservasController), Array)
+#9 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ReservasController), Object(CakeRequest))
+#11 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-02-22 22:47:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:47:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:47:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:47:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:47:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-22 22:47:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:00:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:05:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:13:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:13:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:13:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:13:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:13:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:16:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-bg_glass_75_dadada_1x400.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-24 16:18:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-25 19:15:22 Error: Fatal Error (1): Call to a member function findById() on a non-object in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Controller\PerfilesController.php, line 19]
+2015-02-25 19:15:22 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /perfiles/edit
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 19, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'G:\Dropbox\Mis ...', 19, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-25 19:16:35 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Perfiles\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src3\\app\\View\\Perfiles\\edit.ctp',
+)
+Request URL: /perfiles/edit
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PerfilesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-25 19:18:24 Error: [MissingViewException] View file "G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Perfiles\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'G:\\Dropbox\\Mis Cosas\\Profesional\\Trabajo\\Propio\\Ismael Rodriguez - Los Robles\\src3\\app\\View\\Perfiles\\edit.ctp',
+)
+Request URL: /perfiles/edit
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PerfilesController), Object(CakeRequest))
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-25 19:20:37 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-25 19:20:37 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-25 19:24:15 Error: Fatal Error (4): syntax error, unexpected ''rol_id'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Model\Usuario.php, line 86]
+2015-02-25 19:24:15 Error: [FatalErrorException] syntax error, unexpected ''rol_id'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+Request URL: /usuarios/editSelf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-25 19:24:19 Error: Fatal Error (4): syntax error, unexpected ''rol_id'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in [G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\Model\Usuario.php, line 86]
+2015-02-25 19:24:19 Error: [FatalErrorException] syntax error, unexpected ''rol_id'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+Request URL: /usuarios/editSelf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86, Array)
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'G:\Dropbox\Mis ...', 86, Array)
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-25 19:48:43 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-02-25 19:48:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
