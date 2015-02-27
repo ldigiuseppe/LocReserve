@@ -21,7 +21,7 @@
                     <li><?php echo $this->Html->link("Reservas", array('controller' => 'reservas', 'action' => 'index')); ?></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><?php echo (AuthComponent::user('apellido')) . ', ' . (AuthComponent::user('nombre')); ?></a></li>
+                    <li><?php echo $this->Html->link((AuthComponent::user('apellido')) . ', ' . (AuthComponent::user('nombre')), array('controller' => 'usuarios', 'action' => 'editSelf')); ?></li>
                     <li><?php echo $this->Html->link("Salir", array('controller' => 'usuarios', 'action' => 'logout')); ?></li>
                 </ul>
             <?php endif; ?>

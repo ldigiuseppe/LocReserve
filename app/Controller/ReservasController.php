@@ -217,14 +217,23 @@ class ReservasController extends AppController {
 
                                 //Si tenemos mail de cliente le informamos por email la reserva
                                 if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != '') {
-                                    $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id);
+                                    $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id, 'una nueva reserva ha sido realizada');
                                 }
 
                                 // Se envía un email a los usuarios menos al usuario que realiza la reserva
                                 $this->loadModel('Usuario');
                                 //informamos por mail la reserva al usuario
-//                                $this->Usuario->f
-                                $this->enviarEmailReserva($this->Auth->user('nombre'), $this->Auth->user('email'), $this->Reserva->id);
+                                $emailUsuarios = $this->Usuario->find('all', array(
+                                    'conditions' => array(
+                                        'id !=' => $this->Auth->user('id'),
+                                        'notificaciones' => 1),
+                                    'fields' => array('email', 'nombre'),
+                                ));
+
+                                foreach ($emailUsuarios as $email) {
+                                    $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una nueva reserva ha sido realizada');
+                                    exit;
+                                }
 
                                 $this->Session->setFlash(__('La reserva ha sido guardada'), 'flash_success');
                                 $this->redirect(array('action' => 'index'));
@@ -282,6 +291,28 @@ class ReservasController extends AppController {
                             }
 
                             $dataSource->commit();
+
+                            //Si tenemos mail de cliente le informamos por email la reserva
+                            if ($data['Cliente']['email'] != null && $data['Cliente']['email'] != '') {
+                                $this->enviarEmailReserva($data['Cliente']['nombre'] . " " . $data['Cliente']['apellido'], $data['Cliente']['email'], $this->Reserva->id, 'una reserva ha sido modificada');
+                            }
+
+                            // Se envía un email a los usuarios menos al usuario que realiza la reserva
+                            $this->loadModel('Usuario');
+                            //informamos por mail la reserva al usuario
+                            $emailUsuarios = $this->Usuario->find('all', array(
+                                'conditions' => array(
+                                    'id !=' => $this->Auth->user('id'),
+                                    'notificaciones' => 1),
+                                'fields' => array('email', 'nombre'),
+                            ));
+
+                            foreach ($emailUsuarios as $email) {
+                                $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una reserva ha sido modificada');
+                                exit;
+                            }
+
+
                             $this->Session->setFlash(__('La reserva ha sido actualizada'), 'flash_success');
                             $this->redirect(array('action' => 'index'));
                         } else {
@@ -505,7 +536,7 @@ class ReservasController extends AppController {
         }
     }
 
-    function enviarEmailReserva($nombre, $email, $idReserva) {
+    function enviarEmailReserva($nombre, $email, $idReserva, $texto_inicial) {
         if ($idReserva != null) {
             $data = $this->Reserva->find('first', array(
                 'conditions' => array(
@@ -522,8 +553,10 @@ class ReservasController extends AppController {
             ));
 
             $fecha_hasta = ($this->data['Reserva']['fecha_hasta']);
-
             $fecha_desde = ($this->data['Reserva']['fecha_desde']);
+
+            $datediff = strtotime($this->cambiarfecha_mysql($fecha_hasta)) - strtotime($this->cambiarfecha_mysql($fecha_desde));
+            $noches = floor($datediff / (60 * 60 * 24)) + 1;
 
             $Email = new CakeEmail('smtp');
             $Email->template('nueva_reserva', 'default');
@@ -534,8 +567,10 @@ class ReservasController extends AppController {
             $Email->subject('Nueva Reserva Realizada');
             $Email->viewVars(array(
                 'nombre' => $nombre,
+                'texto_inicial' => $texto_inicial,
                 'fecha_desde' => $fecha_desde,
                 'fecha_hasta' => $fecha_hasta,
+                'noches' => $noches,
                 'reserva' => $data
             ));
             $resultado = $Email->send();

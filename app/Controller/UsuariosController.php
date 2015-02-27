@@ -145,4 +145,34 @@ class UsuariosController extends AppController {
         $this->redirect(array('action' => 'index'));
     }
 
+    public function editSelf() {
+
+        $usuario = $this->Usuario->findById(AuthComponent::user('id'));
+
+        if (!$usuario) {
+            $this->Session->setFlash('Identificador de usuario inválido', 'flash_danger');
+            $this->redirect(array('action' => 'index'));
+        }
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            $this->Usuario->id = AuthComponent::user('id');
+            if (empty($this->request->data['Usuario']['password'])) {
+                unset($this->request->data['Usuario']['password']);
+            }
+            if (empty($this->request->data['Usuario']['password_confirm'])) {
+                unset($this->request->data['Usuario']['password_confirm']);
+            }
+            if ($this->Usuario->save($this->request->data)) {
+                $this->Session->setFlash(__('El usuario ha sido actualizado'), 'flash_success');
+                $this->redirect(array('controller' => 'reservas', 'action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('No se ha podido actualizar el usuario.'), 'flash_danger');
+            }
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $usuario;
+        }
+    }
+
 }

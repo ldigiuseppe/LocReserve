@@ -59,7 +59,7 @@ class Usuario extends AppModel {
             ),
             'equaltofield' => array(
                 'rule' => array('equaltofield', 'password'),
-                'message' => 'Ambos campos de contraseña deben coincidirs'
+                'message' => 'Ambos campos de contraseña deben coincidir'
             )
         ),
         'nombre' => array(
@@ -69,7 +69,7 @@ class Usuario extends AppModel {
             ),
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'Your custom message here',
+                'message' => 'Por favor complete este campo',
             ),
         ),
         'apellido' => array(
@@ -79,19 +79,13 @@ class Usuario extends AppModel {
             ),
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'Your custom message here',
-            ),
-        ),
-        'telefono' => array(
-            'phone' => array(
-                'rule' => array('phone'),
-                'message' => 'Your custom message here',
+                'message' => 'Por favor complete este campo',
             ),
         ),
         'rol_id' => array(
             'notEmpty' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'Your custom message here',
+                'message' => 'Por favor complete este campo',
             ),
         ),
     );
