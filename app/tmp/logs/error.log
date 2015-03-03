@@ -7061,3 +7061,25 @@ Request URL: /fonts/glyphicons-halflings-regular.ttf
 Stack Trace:
 #0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-03-03 17:44:29 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Model.php(3573): Model->setSource('usuarios')
+#1 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Model\Model.php(1369): Model->getDataSource()
+#2 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('Usuario', 'fields')
+#4 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Helper\BootstrapFormHelper.php(56): FormHelper->create('Usuario', Array)
+#5 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\View\Usuarios\login.ctp(3): BootstrapFormHelper->create('Usuario', Array)
+#6 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(954): include('G:\Dropbox\Mis ...')
+#7 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(916): View->_evaluate('G:\Dropbox\Mis ...', Array)
+#8 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\View\View.php(473): View->_render('G:\Dropbox\Mis ...')
+#9 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#10 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#11 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest))
+#12 G:\Dropbox\Mis Cosas\Profesional\Trabajo\Propio\Ismael Rodriguez - Los Robles\src3\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

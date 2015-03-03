@@ -309,7 +309,6 @@ class ReservasController extends AppController {
 
                             foreach ($emailUsuarios as $email) {
                                 $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una reserva ha sido modificada');
-                                exit;
                             }
 
 
