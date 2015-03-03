@@ -6,7 +6,7 @@
 
     <h5>
         <?php
-        if (AuthComponent::user('rol_id') == 1 || AuthComponent::user('rol_id') == 2) {
+        if (AuthComponent::user('rol_id') == 1 || AuthComponent::user('rol_id') == 2 || AuthComponent::user('rol_id') == 3) {
             echo $this->Html->link("Nueva Reserva", array('action' => 'add'), array('class' => 'btn btn-info', 'escape' => false));
         }
         ?>
@@ -166,6 +166,9 @@ foreach ($reservas as $reserva) {
                 break;
             case 2:
                 $tablaPos .= "Impago";
+                break;
+            case 3:
+                $tablaPos .= "Bonificado";
                 break;
         }
         $tablaPos .= '</td>';

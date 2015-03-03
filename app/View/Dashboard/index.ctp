@@ -50,6 +50,9 @@
                                 case 2:
                                     echo "Impago";
                                     break;
+                                case 3:
+                                    echo "Bonificado";
+                                    break;
                             }
                             ?>
                         </td>
@@ -109,6 +112,9 @@
                                 case 2:
                                     echo "Impago";
                                     break;
+                                case 3:
+                                    echo "Bonificado";
+                                    break;
                             }
                             ?>
                         </td>
@@ -116,10 +122,12 @@
                             <?php echo '<a href="' . $this->Html->url(array('controller' => 'reservas', 'action' => 'view', $reserva['Reserva']['id'])) . '" class="btn btn-success btn-xs"> Ver </a>'; ?>
                             <?php
                             if (AuthComponent::user('rol_id') == 1 || AuthComponent::user('rol_id') == 3) {
-                                if ($reserva['Reserva']['tipo_pago'] != 1) {
-                                    echo '<a id="pagaBoton" href="' . $this->Html->url(array('controller' => 'reservas', 'action' => 'pagar', $reserva['Reserva']['id'])) . '" class="btn btn-success btn-xs"> Pagado </a>';
-                                } else {
-                                    echo '<a id="impagaBoton" href="' . $this->Html->url(array('controller' => 'reservas', 'action' => 'impagar', $reserva['Reserva']['id'])) . '" class="btn btn-success btn-xs"> Impago </a>';
+                                if ($reserva['Reserva']['tipo_pago'] != 3) { // Si no esta bonificado
+                                    if ($reserva['Reserva']['tipo_pago'] != 1) { // Si esta impago
+                                        echo '<a id="pagaBoton" href="' . $this->Html->url(array('controller' => 'reservas', 'action' => 'pagar', $reserva['Reserva']['id'])) . '" class="btn btn-success btn-xs"> Pagado </a>';
+                                    } else {
+                                        echo '<a id="impagaBoton" href="' . $this->Html->url(array('controller' => 'reservas', 'action' => 'impagar', $reserva['Reserva']['id'])) . '" class="btn btn-success btn-xs"> Impago </a>';
+                                    }
                                 }
                             }
                             ?>

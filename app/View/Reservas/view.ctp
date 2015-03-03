@@ -134,6 +134,9 @@
                             case 2:
                                 echo "Impago";
                                 break;
+                            case 3:
+                                echo "Bonificado";
+                                break;
                         }
                         ?>
                     </p>

@@ -188,7 +188,7 @@
                     <p class="form-control-static" id="tipo_pago"></p>
                     <?php
                     echo $this->Form->input('Reserva.tipo_pago', array(
-                        'options' => array("Pago parcial", "Pago total", "Impago"),
+                        'options' => array("Pago parcial", "Pago total", "Impago", "Bonificado"),
                         'readonly' => 'readonly',
                         'type' => 'hidden'
                     ));
@@ -225,7 +225,7 @@
                     ?>
                 </div>
             </div>
-            
+
             <div class="form-group">
                 <label class="col-sm-2 control-label">Horario de arribo:</label>
                 <div class="col-sm-1">
@@ -463,20 +463,24 @@
 
         $("#resta").empty();
 
-        if ($total != '' && $senia != '') {
+        if ($total !== '' && $senia !== '') {
             $("#resta").append($diff);
         }
 
-        if ($senia == 0 || $senia == '0') {
-            $("#tipo_pago").text("Impago");
-            $("#ReservaTipoPago").val("2"); // inpago
-        }
-        else if ($diff == 0) {
-            $("#tipo_pago").text("Total");
-            $("#ReservaTipoPago").val("1"); // pago total
+        if ($total <= 0) {
+            $("#tipo_pago").text("Bonificado");
+            $("#ReservaTipoPago").val("3"); // pago bonificado   
         } else {
-            $("#tipo_pago").text("Parcial");
-            $("#ReservaTipoPago").val("0"); // pago parcial
+            if ($senia === '0') {
+                $("#tipo_pago").text("Impago");
+                $("#ReservaTipoPago").val("2"); // inpago
+            } else if ($diff <= 0) {
+                $("#tipo_pago").text("Total");
+                $("#ReservaTipoPago").val("1"); // pago total
+            } else {
+                $("#tipo_pago").text("Parcial");
+                $("#ReservaTipoPago").val("0"); // pago parcial
+            }
         }
     }
 

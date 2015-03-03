@@ -153,7 +153,7 @@ class ReservasController extends AppController {
         $this->set('usuarios', $this->Reserva->Usuario->find('list'));
         $this->loadModel('Locacion');
         $this->set('locaciones', $this->Locacion->find('list'));
-        $this->set('lista_pagos', array("Pago parcial", "Pago total", "Impago"));
+        $this->set('lista_pagos', array("Pago parcial", "Pago total", "Impago", "Bonificado"));
 
 //        $this->set(compact('reservas'));
     }
@@ -232,7 +232,6 @@ class ReservasController extends AppController {
 
                                 foreach ($emailUsuarios as $email) {
                                     $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una nueva reserva ha sido realizada');
-                                    exit;
                                 }
 
                                 $this->Session->setFlash(__('La reserva ha sido guardada'), 'flash_success');
