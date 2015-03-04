@@ -231,7 +231,7 @@ class ReservasController extends AppController {
                                 ));
 
                                 foreach ($emailUsuarios as $email) {
-                                    $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una nueva reserva ha sido realizada');
+                                    $this->enviarEmailReserva($email['Usuario']['nombre'], $email['Usuario']['email'], $this->Reserva->id, 'una nueva reserva ha sido realizada');
                                 }
 
                                 $this->Session->setFlash(__('La reserva ha sido guardada'), 'flash_success');
@@ -307,10 +307,9 @@ class ReservasController extends AppController {
                             ));
 
                             foreach ($emailUsuarios as $email) {
-                                $this->enviarEmailReserva($email['Usuario']['nombre'], 'lucianodigiuseppe@gmail.com', $this->Reserva->id, 'una reserva ha sido modificada');
+                                $this->enviarEmailReserva($email['Usuario']['nombre'], $email['Usuario']['email'], $this->Reserva->id, 'una reserva ha sido modificada');
                             }
-
-
+                            
                             $this->Session->setFlash(__('La reserva ha sido actualizada'), 'flash_success');
                             $this->redirect(array('action' => 'index'));
                         } else {
@@ -439,25 +438,6 @@ class ReservasController extends AppController {
                     AND reservas.fecha_hasta >= fechas.fecha
                 ) 
                 GROUP BY fechas.fecha, tipos_locacion.id");
-
-//        $log = $this->Reserva->getDataSource()->getLog(false, false);
-//        debug($log);
-
-        /* $this->paginate = array(
-          'contain' => array(
-          'LocacionReserva' => array(
-          'Locacion' => array(
-          'TipoLocacion'
-          )
-          ),
-          'Cliente',
-          'Usuario'),
-          'limit' => 12,
-          'order' => array('Reserva.fecha_desde' => 'asc')
-          );
-          $reservas = $this->paginate($this->Reserva); */
-        //$this->set(compact('reservas'));
-        //$this->layout = 'ajax';
 
         $jsonReservas = array();
 
