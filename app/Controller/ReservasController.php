@@ -536,7 +536,7 @@ class ReservasController extends AppController {
             $datediff = strtotime($this->cambiarfecha_mysql($fecha_hasta)) - strtotime($this->cambiarfecha_mysql($fecha_desde));
             $noches = floor($datediff / (60 * 60 * 24)) + 1;
 
-            $Email = new CakeEmail('smtp');
+            $Email = new CakeEmail('gmail');
             $Email->template('nueva_reserva', 'default');
             $Email->emailFormat('html');
             $Email->from(array('info@complejolosrobles.com.ar' => 'Complejo Los Robles'));
