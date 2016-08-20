@@ -8,3 +8,8 @@ If you want to see what is it about you can go to http://lr.lucianodigiuseppe.co
 
 Admin user: user@user.com
 Password: 123456
+
+If you want to use it just execute database.sql and edit the following config files:
+- app/Config/email.php
+- app/Config/database.php
+
